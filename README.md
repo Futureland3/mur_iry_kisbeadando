@@ -1,5 +1,8 @@
 # `mur_iry_kisbeadando` package
 ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
+
+"A package egy node-ból áll. A /draw_house node a turtlesim szimulátorban képes egy ház alakzatot kirajzolni. A mozgást a /turtle1/cmd_vel topicon keresztül hirdeti, míg a teleportálást és a tollvezérlést a /turtle1/teleport_absolute és /turtle1/set_pen szolgáltatásokkal végzi. Megvalósítás ROS 2 Humble alatt."
+
 ## Packages and build
 
 It is assumed that the workspace is `~/ros2_ws/`.

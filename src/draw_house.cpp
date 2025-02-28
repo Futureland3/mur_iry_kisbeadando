@@ -17,7 +17,7 @@ public:
 
         rclcpp::sleep_for(1s); 
         set_pen(false);
-        teleport(4.0, 3.0, 0.0);  // Move lower & a bit to the left
+        teleport(4.0, 3.0, 0.0);  
         rclcpp::sleep_for(1s);  
         set_pen(true);
 
@@ -31,6 +31,21 @@ public:
 
         set_pen(false);
         RCLCPP_INFO(get_logger(), "Square complete! Now adding roof...");
+
+        set_pen(false);
+        teleport(4.0, 6.0, M_PI_4); // Face diagonally up-right
+        set_pen(true);
+
+        move_forward(2.1);  // Move up-right to peak at (5.5, 7.4)
+
+        set_pen(false);
+        teleport(5.5, 7.4, -M_PI_4);
+        set_pen(true);
+
+        move_forward(2.1);  // Move down-right to (7.0, 6.0)
+
+        set_pen(false);
+        RCLCPP_INFO(get_logger(), "House complete!");
     }
 
 private:
