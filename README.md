@@ -34,3 +34,6 @@ source ~/ros2_ws/install/setup.bash
 ``` r
 ros2 launch mur_iry_kisbeadando house_launch.py
 ```
+
+## Screenshot
+![Screenshot 2025-02-28 204659](https://github.com/user-attachments/assets/4a3d516d-e2d1-4de8-b3f6-f4bbf1d95a61)
