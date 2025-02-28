@@ -3,7 +3,7 @@
 <package format="3">
   <name>mur_iry_kisbeadando</name>
   <version>0.0.0</version>
-  <description>The package draw a star using the turtlesim.</description>
+  <description>The package draw a house using the turtlesim.</description>
   <maintainer email="markmurai3@gmail.com">Murai Márk</maintainer>
   <license>GNU General Public License v3.0</license>
 

@@ -25,11 +25,11 @@ set(ament_dependencies
 # add_executable(simple_sub_node src/print_pose.cpp)
 # ament_target_dependencies(simple_sub_node ${ament_dependencies} )
 
-add_executable(draw_star src/draw_star.cpp)
-ament_target_dependencies(draw_star rclcpp geometry_msgs turtlesim)
+add_executable(draw_house src/draw_house.cpp)
+ament_target_dependencies(draw_house rclcpp geometry_msgs turtlesim)
 
 install(TARGETS
-  draw_star
+  draw_house  
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch

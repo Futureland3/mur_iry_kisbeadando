@@ -10,8 +10,8 @@ def generate_launch_description():
         ),
         Node(
             package='mur_iry_kisbeadando',
-            executable='draw_star',
-            name='draw_star',
+            executable='draw_house',
+            name='draw_house',
             output='screen'
         ),
     ])
