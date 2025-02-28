@@ -34,4 +34,3 @@ source ~/ros2_ws/install/setup.bash
 ``` r
 ros2 launch mur_iry_kisbeadando house_launch.py
 ```
-
